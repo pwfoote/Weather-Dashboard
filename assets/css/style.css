@@ -1,6 +1,6 @@
-#current-city {
+#current-city-temp {
     border-color: black;
     border-style: solid;
-    border:5px;
-    padding-left: 5px;
+    border: 20px;
+    margin-left: 5px;
 }
