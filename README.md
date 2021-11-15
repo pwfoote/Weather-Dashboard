@@ -31,3 +31,10 @@ an App where a user can search current weather and a five-day foecast for a sele
 
 ## Screen Shot
 https://github.com/pwfoote/Weather-Dashboard/blob/main/assets/images/weath-dash-ss.png 
+
+## Links
+URL:
+    https://pwfoote.github.io/Weather-Dashboard/
+
+Repo:
+    https://github.com/pwfoote/Weather-Dashboard/settings/pages 
