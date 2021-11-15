@@ -10,34 +10,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<header class="bg-primary p-2 text-white bg-opacity-75; rounded"> <h1>Weather API</h1> </header>
+<header class="mx-center bg-primary p-2 text-white bg-opacity-75; rounded"> <h1>Weather Dashboard</h1> </header>
 <body>
     <div class="jumbotron">
         
         <div class="containter-sm">
-            <div class="row d-flex justify-content-center">
+            <div class="row d-flex justify-content-start">
                 <form id="form-submit">
                     <div class="form-group padding-right-2">
                         <label><h4>Search For a City:</h4></label>
-                        <input type="text" class="form-control" id="city" placeholder="Hell">
+                        <input type="text" class="form-control" id="city" placeholder="Atlanta">
                         <button type="submit" class="btn btn-primary mt-3">search</button>
                     </div>
                 </form>
-                <div id="current-city " class="bg-white col-4 rounded border border-2 border-dark ">
+                <div id="current-city " class="bg-white col-3 rounded border border-2 border-dark ">
                     <h2 id="city-name"></h2> <p id="city-name"></p>
                     <p id="city-weather"></p>
                     <p id="city-temp"></p>
                     <p id="wind-speed"></p>
                     <p id="humidity"></p>
+                    <p id="uv-index"></p>
                 </div>
             </div>
 
             <!-- Five DAy Forecast -->
-        <section class="row d-flex justify-content-center">
-            <div class=" col-5 containter-sm border border-2 border-dark mt-2 margin-right-6">
-                <section class="row align-items-start justify-content-around">
+        <section class="row d-flex align-items-end ">
+            <div class=" containter-lg mt-2 margin-right-6">
+                <section class="row">
                        
-                        <div id="day-1" class="col-3 border border-danger">
+                        <div id="day-1" class="col-2">
                             <div id="city-forecast">
                                 <h5 id="forecast-date"></h5>
                                 <p id="forecast-temp"></p>
@@ -46,12 +47,40 @@
                             </div>
                         </div>    
                        
-                        <div id="day-2" class="col-3 border border-danger">
+                        <div id="day-2" class="col-2">
                             <div id="city-forecast">
                                  <h5 id="forecast-date-2"></h5>
                                  <p id="forecast-temp-2"></p>
                                  <p id="forecast-wind-2"></p>
                                 <p id="forecast-humidity-2"></p>
+                            </div>
+                        </div>
+
+                        <div id="day-3" class="col-2">
+                            <div id="city-forecast">
+                                 <h5 id="forecast-date-3"></h5>
+                                 <p id="forecast-temp-3"></p>
+                                 <p id="forecast-wind-3"></p>
+                                <p id="forecast-humidity-3"></p>
+                            </div>
+                        </div>
+
+
+                        <div id="day-4" class="col-2">
+                            <div id="city-forecast">
+                                 <h5 id="forecast-date-4"></h5>
+                                 <p id="forecast-temp-4"></p>
+                                 <p id="forecast-wind-4"></p>
+                                <p id="forecast-humidity-4"></p>
+                            </div>
+                        </div>
+
+                        <div id="day-5" class="col-2">
+                            <div id="city-forecast">
+                                 <h5 id="forecast-date-5"></h5>
+                                 <p id="forecast-temp-5"></p>
+                                 <p id="forecast-wind-5"></p>
+                                <p id="forecast-humidity-5"></p>
                             </div>
                         </div>
 
